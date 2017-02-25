@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    text-transform: none;
+     color: rgba(0, 0, 0, 0.87);
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.homepage {
+    background-color: #64b5f6;
+    color: white;
+}
+
+.kompetisi {
+    background-color: #f9fcff;
+    /*    f4fafaff*/
+}
+
+.timeline {
+    background-color: white;
+}
+
+.organisasi {
+    background-color: #f9fcff;
+}
+
+.social-media {
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    color: #f9fcff;
+    padding: 10px;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .social-media {
+        float: none;
+        justify-content: center;
+        padding-top: 0;
+    }
+}
+
+.social-media a {
+    color: white;
+    padding-right: 15px;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
+.social-media .social-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: border-radius .3s, background-color .5s;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.social-media .social-wrapper:hover {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.10);
+    transition: border-radius .3s, background-color .3s;
+}
+
+.social-media .social-wrapper:hover a {
+    color: white;
+}
+
+.social-media .social-wrapper a {
+    padding: 20%;
+}
