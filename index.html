@@ -13,45 +13,75 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav class="white" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo"><img src="img/logo-cc.gif" style="width: 15%; padding-top: 9px;" alt=""></a>
-                <ul class="right hide-on-med-and-down ">
-                    <li><a href="#" style="color: rgba(0, 0, 0, 0.87);">Home</a></li>
-                    <li><a href="#" style="color: rgba(0, 0, 0, 0.87);">FAQ</a></li>
-                    <li><a class="waves-effect waves-light btn blue lighten-2" style="color: white;">Login</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#">Navbar Link</a></li>
-                </ul>
-                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <header>
+        <div class="navbar-fixed">
+            <nav role="navigation">
+                <div class="nav-wrapper container">
+                    <a id="logo-container" href="#" class="brand-logo responsive-img"><img src="img/logo-cc.gif" style="width: 15%; padding-top: 9px;" alt="">
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down ">
+                            <li><a href="#" style="color: rgba(0, 0, 0, 0.87);">Home</a></li>
+                            <li><a href="#" style="color: rgba(0, 0, 0, 0.87);">FAQ</a></li>
+                            <li><a class="btn waves-effect waves-light " style="color: white; background-color: #23a7d2;">Login</a></li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <div class="section no-pad-bot homepage" id="index-banner">
+            <div class="container">
+                <br>
+                <br>
+                <h3 class="header center">Lorem ipsum dolor sit amet consectetur <br> Sequi non itaque qui dolorem id</h3>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <img class="responsive-img" src="img/student.png" alt="">
+                    </div>
+                    <div class="col l6 s12">
+                        <h5>Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laborum quis esse magni illo consequatur ab dolore distinctio fugit incidunt, error labore id ipsa numquam nam suscipit. Sunt, laudantium maxime?</p>
+                        <a href="#" class="btn waves-effect waves-light amber lighten-2">Daftar</a>
+                    </div>
+                    <div class="col l12 center">
+                        <i class="zmdi zmdi-chevron-down zmdi-hc-3x"></i>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
-        </nav>
-    </div>
-    <div class="section no-pad-bot homepage" id="index-banner">
+        </div>
+    </header>
+    <div class="organisasi">
         <div class="container">
-            <br>
-            <br>
-            <br>
-            <h4 class="header center light">Lorem ipsum dolor sit amet consectetur <br> Sequi non itaque qui dolorem id</h4>
-            <br>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col l6 s12">
-                    <img src="img/student.png" alt="">
-                </div>
-                <div class="col l6 s12">
-                    <p>
-                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, laborum quis esse magni illo consequatur ab dolore distinctio fugit incidunt, error labore id ipsa numquam nam suscipit. Sunt, laudantium maxime?</p>
-                    <a href="#" class="btn waves-effect waves-light amber lighten-2">Daftar</a>
+            <div class="section">
+                <div class="row center">
+                    <div class="col l4"><img src="img/himakom.jpg" alt="" style="width: 15%; padding-top: 18px"></div>
+                    <div class="col l4"><img src="img/logo-omahti.png" alt="" style="width: 40%; padding-top: 23px;"></div>
+                    <div class="col l4"><img src="img/hmei.png" alt="" style="width: 20%; padding-top: 18px"></div>
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
+        </div>
+    </div>
+    <div class="about">
+        <br>
+        <br>
+        <div class="container">
+            <div class="section" style="height: 500px;">
+                <div class="row center">
+                    <h6 class="title"><strong>ABOUT</strong></h6>
+                    <h5>Lorem ipsum Dolor sit Amet</h5>
+                </div>
+            </div>
         </div>
     </div>
     <div class="kompetisi">
@@ -60,7 +90,7 @@
         <div class="container">
             <div class="section">
                 <div class="row center">
-                    <h6>KOMPETISI</h6>
+                    <h6 class="title"><strong>KOMPETISI</strong></h6>
                     <h5>Lorem ipsum Dolor sit Amet</h5>
                     <br>
                 </div>
@@ -68,60 +98,62 @@
                 <div class="row">
                     <div class="col s12 m4">
                         <div class="card-panel hoverable">
-                            <div class="icon-block">
-                                <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                                <h5 class="center">Speeds up development</h5>
+                            <div class="icon-block center valign-wrapper">
+                                <div class="valign">
+                                    <br>
+                                    <img src="img/kompetisi/5.png" alt="">
+                                    <h5 class="light">Speeds up development</h5>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-panel hoverable">
+                            <div class="icon-block center">
                                 <br>
+                                <img src="img/kompetisi/3.png" alt="">
+                                <h5 class="light">User Experience Focused</h5>
                                 <br>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card-panel hoverable">
-                            <div class="icon-block">
-                                <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                                <h5 class="center">User Experience Focused</h5>
+                            <div class="icon-block center">
                                 <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card-panel hoverable">
-                            <div class="icon-block">
-                                <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                                <h5 class="center">Easy to work <br>with</h5>
-                                <br>
+                                <img src="img/kompetisi/6.png" alt="">
+                                <h5 class="light">Easy to work <br>with</h5>
                                 <br>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card-panel hoverable">
-                            <div class="icon-block">
-                                <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                                <h5 class="center">Speeds up development</h5>
+                            <div class="icon-block center">
                                 <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card-panel hoverable">
-                            <div class="icon-block">
-                                <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                                <h5 class="center">User Experience Focused</h5>
-                                <br>
+                                <img src="img/kompetisi/1.png" alt="">
+                                <h5 class="light">Speeds up development</h5>
                                 <br>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card-panel hoverable">
-                            <div class="icon-block">
-                                <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                                <h5 class="center">Easy to work <br>with</h5>
+                            <div class="icon-block center">
                                 <br>
+                                <img src="img/kompetisi/4.png" alt="">
+                                <h5 class="light">User Experience Focused</h5>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card-panel hoverable">
+                            <div class="icon-block center">
+                                <br>
+                                <img src="img/kompetisi/2.png" alt="">
+                                <h5 class="light">Easy to work <br>with</h5>
                                 <br>
                             </div>
                         </div>
@@ -138,26 +170,14 @@
         <div class="container">
             <div class="section" style="height: 500px;">
                 <div class="row center">
-                    <h6>TIMELINE</h6>
+                    <h6 class="title"><strong>TIMELINE</strong></h6>
                     <h5>Lorem ipsum Dolor sit Amet</h5>
                 </div>
             </div>
         </div>
     </div>
-    <div class="organisasi">
-        <div class="container">
-            <div class="section">
-                <div class="row center">
-                    <h6>Organized by:</h6>
-                    <br>
-                    <div class="col l4"><img src="img/himakom.jpg" alt="" style="width: 15%;"></div>
-                    <div class="col l4"><img src="img/logo-omahti.png" alt="" style="width: 40%; padding-top: 5px;"></div>
-                    <div class="col l4"><img src="img/hmei.png" alt="" style="width: 20%;"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="coba" style="background-color: #64b5f6; color: white;">
+    <div class="block"></div>
+    <div class="end">
         <br>
         <br>
         <div class="container">
@@ -174,7 +194,7 @@
         <div class="container">
             <div class="row" style="margin-bottom:0;">
                 <div class="col l6">
-                    <p style="color: #f9fcff; padding-top: 12px;">© 2016 Copyright C-Compiler</p>
+                    <p style="color: #e6e6e6; padding-top: 10px;">2017 © C-Compiler</p>
                 </div>
                 <div class="col l6 right-align">
                     <div class="social-media">

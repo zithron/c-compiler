@@ -8,6 +8,12 @@
  * Made By MaterializeCSS.com
  */
 
+html,
+body,
+header {
+    height: 100%;
+}
+
 html {
     margin-bottom: 0;
     padding: 0;
@@ -18,9 +24,13 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: 17px;
+}
+
 .btn {
     text-transform: none;
-     color: rgba(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .icon-block {
@@ -31,23 +41,84 @@ body {
     font-size: inherit;
 }
 
+nav {
+    background-color: white;
+    box-shadow: none;
+}
+
+.title {
+    color: #4c4c4c;
+    /*    #787f8c;*/
+}
+
+header {
+    position: relative;
+}
+
 .homepage {
-    background-color: #64b5f6;
+/*    background-color: #73d6e7;*/
+         background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
+
     color: white;
 }
 
+.about {
+    background-color: white;
+    color: #4c4c4c;
+}
+
 .kompetisi {
-    background-color: #f9fcff;
+    background-color: #f4fafa;
+    color: #4c4c4c;
     /*    f4fafaff*/
 }
 
 .timeline {
     background-color: white;
+    color: #4c4c4c;
 }
 
 .organisasi {
-    background-color: #f9fcff;
+    background-color: #f4fafa;
+    position: relative;
+    /*    border-top: 1px solid #D6DDE3;*/
 }
+
+.end {
+    color: white;
+    background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
+}
+/*
+.organisasi .container {
+    position: relative;
+    z-index: 1000;
+}
+.organisasi::before {
+    margin-top: -50px;
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    background-color: #f4fafa;
+    -ms-transform: skewY(3deg);
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg);
+}
+
+.organisasi::after {
+        margin-top: -50px;
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    background-color: #f4fafa;
+    -ms-transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+}
+*/
 
 .social-media {
     position: relative;
@@ -68,12 +139,12 @@ body {
 }
 
 .social-media a {
-    color: white;
+    color: #e6e6e6;
     padding-right: 15px;
 }
 
 .social-media a:hover {
-    color: white;
+    color: #e6e6e6;
 }
 
 .social-media .social-wrapper {
