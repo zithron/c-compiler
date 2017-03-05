@@ -53,14 +53,25 @@ nav {
 
 header {
     position: relative;
-}
-
-.homepage {
-/*    background-color: #73d6e7;*/
-         background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
-
+    background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
     color: white;
 }
+
+.navbar-fixed .nav-wrapper .brand-logo img {
+    width: 94.047px;
+    height: 44.984px;
+    margin-top: 9px;
+}
+
+.logo-ccomp {
+    padding-top: 9px;
+}
+
+/*
+.homepage {
+        background-color: #73d6e7;
+}
+*/
 
 .about {
     background-color: white;
@@ -81,13 +92,18 @@ header {
 .organisasi {
     background-color: #f4fafa;
     position: relative;
-    /*    border-top: 1px solid #D6DDE3;*/
+}
+
+.logo-organisasi {
+    filter: grayscale(100%);
 }
 
 .end {
     color: white;
     background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
 }
+
+
 /*
 .organisasi .container {
     position: relative;
