@@ -1,7 +1,9 @@
-(function($){
-  $(function(){
+(function ($) {
+    $(function () {
 
-    $('.button-collapse').sideNav();
+        $('.button-collapse').sideNav();
+        $('.modal').modal();
+        $('ul.tabs').tabs();
 
-  }); // end of document ready
+    }); // end of document ready
 })(jQuery); // end of jQuery name space

@@ -1,13 +1,3 @@
-/* Custom Stylesheet */
-
-
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 html,
 body,
 header {
@@ -24,13 +14,165 @@ body {
     margin: 0;
 }
 
-p {
-    font-size: 17px;
-}
+
+/*edit materializecss framework*/
 
 .btn {
     text-transform: none;
     color: rgba(0, 0, 0, 0.87);
+}
+
+.secondary-btn {
+    color: white;
+    background-color: rgba(115, 214, 231, 1);
+}
+
+.secondary-btn:hover {
+    color: white;
+    background-color: rgba(115, 214, 231, 1);
+}
+
+.card-panel {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+}
+
+.tabs .tab a {
+    color: #a7a7a7;
+}
+.tabs .tab a:hover {
+    color: #a7a7a7;
+}
+.tabs .tab a.active {
+    color: rgba(115, 214, 231, 1);
+}
+.tabs .indicator {
+    background-color: rgba(115, 214, 231, 1);
+}
+
+/*reusbale*/
+
+.title {
+    color: #384047;
+    /*    #787f8c;*/
+}
+
+.caption {
+    color: #4c5760;
+}
+
+
+/*typhography and font*/
+
+p {
+    font-size: 17px;
+}
+
+
+/*navbar*/
+
+nav {
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+nav ul a {
+    color: #4c5760;
+}
+
+nav ul a:hover {
+    background-color: transparent;
+    color: #384047;
+}
+
+.navbar-fixed .nav-wrapper .brand-logo img {
+    width: 30%;
+    padding: 5px;
+}
+
+
+/*end of navbar*/
+
+
+/*make homepage responsive*/
+
+.homepage {
+    /*background-color: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(59, 149, 227, 1) 100%);*/
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: url(../img/bghomepage.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-color: rgba(115, 214, 231, 1);
+}
+
+.homepage-text {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/*end homepage responsive*/
+
+
+/*homepage content*/
+
+.header {
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+
+
+/*.header-img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}*/
+
+.header-text {
+    /* padding-bottom: 15px;*/
+}
+
+
+/*.chevron-down {
+    padding-top: 20px;
+}*/
+
+
+/*end of homepage content*/
+
+
+/*kompetisi*/
+
+.kompetisi {
+    background-color: #f4fafa;
+    color: #4c4c4c;
+}
+
+.kompetisi a {
+    color: rgba(115, 214, 231, 1);
 }
 
 .icon-block {
@@ -41,53 +183,33 @@ p {
     font-size: inherit;
 }
 
-nav {
-    background-color: white;
-    box-shadow: none;
-}
 
-.title {
-    color: #4c4c4c;
-    /*    #787f8c;*/
-}
+/*end of kompetisi*/
 
-header {
-    position: relative;
-    background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
-    color: white;
-}
 
-.navbar-fixed .nav-wrapper .brand-logo img {
-    width: 94.047px;
-    height: 44.984px;
-    margin-top: 9px;
-}
-
-.logo-ccomp {
-    padding-top: 9px;
-}
-
-/*
-.homepage {
-        background-color: #73d6e7;
-}
-*/
+/*about*/
 
 .about {
     background-color: white;
     color: #4c4c4c;
 }
 
-.kompetisi {
-    background-color: #f4fafa;
-    color: #4c4c4c;
-    /*    f4fafaff*/
-}
+
+/*end of about*/
+
+
+/*timeline*/
 
 .timeline {
     background-color: white;
     color: #4c4c4c;
 }
+
+
+/*endo of timeline*/
+
+
+/*organisasi*/
 
 .organisasi {
     background-color: #f4fafa;
@@ -96,49 +218,39 @@ header {
 
 .logo-organisasi {
     filter: grayscale(100%);
+    cursor: pointer;
 }
 
-.end {
+
+/*end of organisasi*/
+
+
+/*last section*/
+
+.last {
+    background: url(../img/bghomepage.png) no-repeat center center;
     color: white;
-    background: linear-gradient(to right, rgba(115, 214, 231, 1) 0%, rgba(35, 167, 210, 1) 100%);
-}
-
-
-/*
-.organisasi .container {
+    background-color: rgba(115, 214, 231, 1);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
-    z-index: 1000;
-}
-.organisasi::before {
-    margin-top: -50px;
-    content: '';
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    z-index: 1;
-    background-color: #f4fafa;
-    -ms-transform: skewY(3deg);
-    -webkit-transform: skewY(3deg);
-    transform: skewY(3deg);
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    /*linear-gradient(to right,  0%, rgba(59, 149, 227, 1) 100%);*/
 }
 
-.organisasi::after {
-        margin-top: -50px;
-    content: '';
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    z-index: 1;
-    background-color: #f4fafa;
-    -ms-transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    transform: skewY(-3deg);
-}
-*/
+
+/*end of last section*/
+
+
+/*social media*/
 
 .social-media {
     position: relative;
-    font-size: 20px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     color: #f9fcff;
@@ -150,7 +262,6 @@ header {
     .social-media {
         float: none;
         justify-content: center;
-        padding-top: 0;
     }
 }
 
@@ -187,3 +298,92 @@ header {
 .social-media .social-wrapper a {
     padding: 20%;
 }
+
+
+/*end of social media*/
+
+
+/*footer*/
+
+footer {}
+
+
+/*footer end*/
+
+
+/* FAQ page*/
+
+#FAQ {
+    background-color: white;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.faq p {
+    color: #384047;
+}
+
+.faq strong {
+    color: #4c5760;
+}
+
+.title-faq {
+    color: #808080;
+}
+
+.faq .row {
+    margin-bottom: 0px;
+}
+
+.faq .collapsible-body {
+    background-color: white;
+    border-bottom: none;
+    border-top: 1px solid #D4D5D6;
+}
+
+.faq .collapsible {
+    border: solid 2px #D4D5D6;
+    box-shadow: none;
+}
+
+.collapsible-header {
+    border-bottom: none;
+    position: relative;
+    line-height: 150%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.text-full-faq p {
+    font-size: 1.1rem;
+}
+
+#FAQ .zmdi-plus {
+    display: inline;
+    font-size: 15px;
+    position: absolute;
+    top: -15%;
+    right: -4%;
+    color: #727272;
+}
+
+.zmdi-show {
+    display: inline;
+}
+
+.zmdi-hide {
+    display: none;
+}
+
+#FAQ .zmdi-minus {
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    top: -15%;
+    right: -4%;
+    color: #727272;
+}
+
+
+/*end of FAQ page
