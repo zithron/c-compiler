@@ -24,12 +24,13 @@ body {
 
 .secondary-btn {
     color: white;
-    background-color: rgba(115, 214, 231, 1);
+    background-color: #a2d6e9;
 }
 
 .secondary-btn:hover {
     color: white;
-    background-color: rgba(115, 214, 231, 1);
+    background-color: #a2d6e9;
+    /*    rgba(115, 214, 231, 1);*/
 }
 
 .card-panel {
@@ -39,15 +40,19 @@ body {
 .tabs .tab a {
     color: #a7a7a7;
 }
+
 .tabs .tab a:hover {
     color: #a7a7a7;
 }
+
 .tabs .tab a.active {
-    color: rgba(115, 214, 231, 1);
+    color: #a2d6e9;
 }
+
 .tabs .indicator {
-    background-color: rgba(115, 214, 231, 1);
+    background-color: #a2d6e9;
 }
+
 
 /*reusbale*/
 
@@ -101,13 +106,14 @@ nav ul a:hover {
     height: 100%;
     width: 100%;
     display: table;
-    background: url(../img/bghomepage.png) no-repeat center center;
+    background: url(../img/bgnew.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    background-color: rgba(115, 214, 231, 1);
+    background-color: #a2d6e9;
+    /*        rgba(115, 214, 231, 1);*/
 }
 
 .homepage-text {
@@ -172,7 +178,7 @@ nav ul a:hover {
 }
 
 .kompetisi a {
-    color: rgba(115, 214, 231, 1);
+    color: #a2d6e9;
 }
 
 .icon-block {
@@ -219,6 +225,14 @@ nav ul a:hover {
 .logo-organisasi {
     filter: grayscale(100%);
     cursor: pointer;
+    width: 65%;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .logo-organisasi {
+        width: 100%;
+    }
 }
 
 
@@ -230,7 +244,7 @@ nav ul a:hover {
 .last {
     background: url(../img/bghomepage.png) no-repeat center center;
     color: white;
-    background-color: rgba(115, 214, 231, 1);
+    background-color:#a2d6e9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
