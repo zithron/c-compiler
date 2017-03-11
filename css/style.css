@@ -24,12 +24,12 @@ body {
 
 .secondary-btn {
     color: white;
-    background-color: #a2d6e9;
+    background-color: #73d6e7;
 }
 
 .secondary-btn:hover {
     color: white;
-    background-color: #a2d6e9;
+    background-color: #73d6e7;
     /*    rgba(115, 214, 231, 1);*/
 }
 
@@ -46,11 +46,11 @@ body {
 }
 
 .tabs .tab a.active {
-    color: #a2d6e9;
+    color: rgba(115, 214, 231, 1);
 }
 
 .tabs .indicator {
-    background-color: #a2d6e9;
+    background-color: rgba(115, 214, 231, 1);
 }
 
 
@@ -62,7 +62,22 @@ body {
 }
 
 .caption {
+    padding-top: 29.5px;
     color: #4c5760;
+}
+
+.separator {
+    padding-bottom: 29.5px;
+}
+
+.separator img {
+    width: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    .separator img {
+        width: 10%;
+    }
 }
 
 
@@ -244,7 +259,7 @@ nav ul a:hover {
 .last {
     background: url(../img/bghomepage.png) no-repeat center center;
     color: white;
-    background-color:#a2d6e9;
+    background-color: #a2d6e9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -319,7 +334,10 @@ nav ul a:hover {
 
 /*footer*/
 
-footer {}
+footer {
+    bottom: 0;
+    background-color: #323b4a;
+}
 
 
 /*footer end*/
@@ -357,7 +375,7 @@ footer {}
 }
 
 .faq .collapsible {
-    border: solid 2px #D4D5D6;
+    border: solid 1px #D4D5D6;
     box-shadow: none;
 }
 
