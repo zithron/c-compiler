@@ -35,10 +35,16 @@ body {
 
 .card-panel {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    height: 240px;
+}
+
+.tabs .tab {
+  text-transform: none;
 }
 
 .tabs .tab a {
     color: #a7a7a7;
+    padding: 0;
 }
 
 .tabs .tab a:hover {
@@ -53,6 +59,10 @@ body {
     background-color: rgba(115, 214, 231, 1);
 }
 
+.collection {
+    border: none;
+    margin-top: 30px;
+}
 
 /*reusbale*/
 
@@ -198,6 +208,8 @@ nav ul a:hover {
 
 .icon-block {
     padding: 0 15px;
+    padding-top: 28.5px;
+    padding-bottom: 28.5px;
 }
 
 .icon-block .material-icons {
@@ -224,6 +236,7 @@ nav ul a:hover {
 .timeline {
     background-color: white;
     color: #4c4c4c;
+    height: auto;
 }
 
 
@@ -356,6 +369,10 @@ footer {
     color: #384047;
 }
 
+.faq span {
+    color: #73d6e7;
+}
+
 .faq strong {
     color: #4c5760;
 }
@@ -371,12 +388,13 @@ footer {
 .faq .collapsible-body {
     background-color: white;
     border-bottom: none;
-    border-top: 1px solid #D4D5D6;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .faq .collapsible {
-    border: solid 1px #D4D5D6;
-    box-shadow: none;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
 }
 
 .collapsible-header {
@@ -397,15 +415,17 @@ footer {
     position: absolute;
     top: -15%;
     right: -4%;
-    color: #727272;
+    color: #73d6e7;
 }
 
 .zmdi-show {
     display: inline;
+    transition: all .3s ease-in-out;
 }
 
 .zmdi-hide {
     display: none;
+    transition: all .3s ease-in-out;
 }
 
 #FAQ .zmdi-minus {
@@ -414,7 +434,7 @@ footer {
     position: absolute;
     top: -15%;
     right: -4%;
-    color: #727272;
+    color: #73d6e7;
 }
 
 
