@@ -91,6 +91,10 @@ body {
     }
 }
 
+.text-blue {
+    color: #73d6e7;
+}
+
 
 /*typhography and font*/
 
@@ -234,6 +238,15 @@ nav ul a:hover {
     background-color: white;
     color: #4c4c4c;
 }
+
+
+/*
+.tes {
+    background-color: white;
+     -webkit-clip-path:polygon(30% 0,100% 0,100% 100%,0 100%);
+    clip-path:polygon(30% 0,100% 0,100% 100%,0 100%);
+}
+*/
 
 
 /*end of about*/
