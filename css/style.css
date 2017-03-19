@@ -33,6 +33,14 @@ body {
     /*    rgba(115, 214, 231, 1);*/
 }
 
+.third-btn {
+    background-color: #f4fafa;
+}
+
+.third-btn:hover {
+    background-color: #f4fafa;
+}
+
 .card-panel {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     height: 240px;
@@ -128,6 +136,9 @@ nav ul a:hover {
     .navbar-fixed .nav-wrapper .brand-logo img {
         width: 50%;
         padding: 10px;
+    }
+    nav .brand-logo {
+        font-size: 14px;
     }
 }
 
@@ -471,8 +482,11 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #f4fafa;
-    height: auto;
     position: relative;
+    height: auto;
+    height: 100%;
+    width: 100%;
+    display: table;
 }
 
 #register .row {
@@ -480,14 +494,17 @@ footer {
 }
 
 #register .card-panel {
-    height: auto;
+    /*    height: auto;*/
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 
 /* label color */
 
 .input-field label {
-    color: #cccccc;
+    color: rgba(0, 0, 0, 0.18);
 }
 
 
@@ -497,7 +514,7 @@ footer {
 .input-field input[type=number]:focus+label,
 .input-field input[type=email]:focus+label,
 .input-field input[type=password]:focus+label {
-    color: #73d6e7;
+    color: rgba(0, 0, 0, 0.18);
 }
 
 
@@ -507,8 +524,8 @@ footer {
 .input-field input[type=number]:focus,
 .input-field input[type=email]:focus,
 .input-field input[type=password]:focus {
-    border-bottom: 1px solid #73d6e7;
-    box-shadow: 0 1px 0 0 #73d6e7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.18);
 }
 
 
@@ -519,8 +536,8 @@ footer {
 .input-field input[type=email].valid,
 .input-field input[type=password].valid,
 {
-    border-bottom: 1px solid #cccccc;
-    box-shadow: 0 1px 0 0 #cccccc;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.18);
 }
 
 input:not([type]).valid,
@@ -549,8 +566,8 @@ input[type=search].valid,
 input[type=search]:focus.valid,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea:focus.valid {
-    border-bottom: 1px solid #cccccc;
-    box-shadow: 0 1px 0 0 #cccccc;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.18);
 }
 
 
@@ -564,11 +581,27 @@ textarea.materialize-textarea:focus.valid {
     box-shadow: 0 1px 0 0 #F44336;
 }
 
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+
 
 /* icon prefix focus color */
 
 .input-field .prefix.active {
-    color: #cccccc;
+    color: rgba(0, 0, 0, 0.18);
 }
 
 .file-field {
@@ -576,29 +609,101 @@ textarea.materialize-textarea:focus.valid {
     padding-left: 11.25px;
     padding-right: 11.25px;
 }
-/*Kategori aplikasi*/
-#aplikasi {
+
+#register .btn {
+    border-radius: 30px;
+}
+
+.step-pagination .pagination .active {
+    background-color: #73d6e7;
+}
+
+#register .zmdi .zmdi-chevron-right {
+    top: -15%;
+    position: relative;
+}
+
+#register .zmdi .zmdi-chevron-left {
+    top: -15%;
+    position: relative;
+}
+
+
+/* Detail Kategori */
+
+.detail-kategori {
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #f4fafa;
     min-height: 600px;
 }
-#aplikasi a {
+
+.detail-kategori a {
     color: #27273f;
 }
-#aplikasi .collapsible-body {
+
+.detail-kategori .collapsible-body {
     background-color: white;
 }
 
-#aplikasi p {
+.detail-kategori p {
     font-size: 15px;
 }
 
-#aplikasi ol li {
+.detail-kategori ol li {
     list-style-type: decimal;
 }
 
-#aplikasi .second-list li {
+.detail-kategori .second-list li {
     list-style-type: circle;
+}
+
+.card-table {
+    display: table;
+}
+
+.card-table .card-table-cell {
+    display: table-cell;
+}
+
+#css-table {
+    display: table;
+}
+
+#css-table .colo {
+    display: table-cell;
+}
+
+#registernew {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f4fafa;
+    position: relative;
+    height: auto;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#registernew .row {
+    margin-bottom: 0px;
+}
+
+#registernew .col {
+    float: none;
+}
+
+#registernew .btn {
+    border-radius: 30px;
+}
+
+.step-pagination .pagination .active {
+    background-color: #73d6e7;
+}
+
+.panel {
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
 }
