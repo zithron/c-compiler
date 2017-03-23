@@ -628,53 +628,7 @@ textarea.materialize-textarea {
     position: relative;
 }
 
-
-/* Detail Kategori */
-
-.detail-kategori {
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #f4fafa;
-    min-height: 600px;
-}
-
-.detail-kategori a {
-    color: #27273f;
-}
-
-.detail-kategori .collapsible-body {
-    background-color: white;
-}
-
-.detail-kategori p {
-    font-size: 15px;
-}
-
-.detail-kategori ol li {
-    list-style-type: decimal;
-}
-
-.detail-kategori .second-list li {
-    list-style-type: circle;
-}
-
-.card-table {
-    display: table;
-}
-
-.card-table .card-table-cell {
-    display: table-cell;
-}
-
-#css-table {
-    display: table;
-}
-
-#css-table .colo {
-    display: table-cell;
-}
-
+/* registet baru */
 #registernew {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -721,4 +675,51 @@ textarea.materialize-textarea {
 
 .dropdown-content li > a {
     color: #4c5760;
+}
+
+
+/* Detail Kategori */
+
+.detail-kategori {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f4fafa;
+    min-height: 600px;
+}
+
+.detail-kategori a {
+    color: #27273f;
+}
+
+.detail-kategori .collapsible-body {
+    background-color: white;
+}
+
+.detail-kategori p {
+    font-size: 15px;
+}
+
+.detail-kategori ol li {
+    list-style-type: decimal;
+}
+
+.detail-kategori .second-list li {
+    list-style-type: circle;
+}
+
+.card-table {
+    display: table;
+}
+
+.card-table .card-table-cell {
+    display: table-cell;
+}
+
+#css-table {
+    display: table;
+}
+
+#css-table .colo {
+    display: table-cell;
 }
