@@ -132,6 +132,19 @@ nav ul a:hover {
     padding: 5px;
 }
 
+.navbar-fixed .nav-wrapper .brand-logo {
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #4c5760;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+} 
+
+.navbar-fixed .nav-wrapper .brand-logo i {
+    font-size: 18px;
+} 
+
 @media screen and (max-width: 480px) {
     .navbar-fixed .nav-wrapper .brand-logo img {
         width: 50%;
@@ -628,7 +641,9 @@ textarea.materialize-textarea {
     position: relative;
 }
 
+
 /* registet baru */
+
 #registernew {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -661,19 +676,19 @@ textarea.materialize-textarea {
     vertical-align: middle;
     display: table-cell;
 }
+
 .bg-kategori {
     background-image: url(../img/white-dekstop.jpg);
     height: 260px;
     background-color: #a2d6e9;
     background-size: cover;
-    
 }
 
 .isi-kategori {
     margin-top: -260px;
 }
 
-.dropdown-content li > a {
+.dropdown-content li>a {
     color: #4c5760;
 }
 
@@ -723,3 +738,26 @@ textarea.materialize-textarea {
 #css-table .colo {
     display: table-cell;
 }
+
+
+/* Penguman */
+#pengumuman {
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+#pengumuman .card {
+    box-shadow:  0 1px 7px rgba(0,0,0,.05);
+}
+#pengumuman .card .card-title {
+    font-size: 17px;
+    line-height: 24px;
+    color: #4c5760;
+}
+/*end of pengumuman*/
+
+/*pengumuman onepage*/
+#pengumuman-onepage {
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+/*end of pengumuman onepage*/
